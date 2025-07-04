@@ -1,5 +1,10 @@
 # Grafana Dashbords
 
+<img src="screenshots/screenshot_1.png" width="300" alt="Screenshot"/>
+<img src="screenshots/screenshot_2.png" width="300" alt="Screenshot"/>
+<img src="screenshots/screenshot_3.png" width="300" alt="Screenshot"/>
+<img src="screenshots/screenshot_4.png" width="300" alt="Screenshot"/>
+
 ## Collectd --> Prometheus --> Grafana
 
 Published: [Grafana Dashboard](https://grafana.com/grafana/dashboards/23643-server-overview-collectd-prometheus-release-2-0-3/)  
