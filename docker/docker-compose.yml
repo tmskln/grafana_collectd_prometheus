@@ -1,0 +1,48 @@
+name: grafana-collectd-prometheus-test
+services:
+
+  collectd:
+    build:
+      context: ./collectd
+      dockerfile: Dockerfile
+    hostname: host-x
+    networks:
+      - grafana-test
+    volumes:
+      - ./collectd/collectd.d:/etc/collectd/collectd.conf.d
+      - ./collectd/collectd.conf:/etc/collectd/collectd.conf
+    ports:
+      - "127.0.0.1:9103:9103"
+
+  grafana:
+    image: docker.io/grafana/grafana-oss:${GRAFANA_DOCKER_VERSION}
+    hostname: grafana
+    stop_grace_period: 60s
+    networks:
+      - grafana-test
+    volumes:
+      - ./grafana:/var/lib/grafana
+    ports:
+      - "127.0.0.1:8086:3000"
+    environment:
+      - GF_LOG_MODE=console
+
+  prometheus:
+    image: docker.io/prom/prometheus:${PROMETHEUS_DOCKER_VERSION}
+    hostname: prometheus
+    stop_grace_period: 60s
+    command:
+      - --config.file=/etc/prometheus2/prometheus.yml
+      - --web.enable-remote-write-receiver
+      - --enable-feature=exemplar-storage
+      - --enable-feature=native-histograms
+    volumes:
+      - ./prometheus:/etc/prometheus2
+    networks:
+      - grafana-test
+    ports:
+      - "127.0.0.1:19090:9090"
+
+networks:
+  grafana-test:
+    driver: bridge
