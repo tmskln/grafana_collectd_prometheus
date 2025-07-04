@@ -1193,7 +1193,7 @@
               "type": "linear"
             },
             "showPoints": "never",
-            "spanNulls": true,
+            "spanNulls": false,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -2772,7 +2772,7 @@
               "type": "linear"
             },
             "showPoints": "never",
-            "spanNulls": true,
+            "spanNulls": false,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -2899,7 +2899,7 @@
               "type": "linear"
             },
             "showPoints": "never",
-            "spanNulls": true,
+            "spanNulls": false,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -3023,7 +3023,7 @@
               "type": "linear"
             },
             "showPoints": "never",
-            "spanNulls": true,
+            "spanNulls": false,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -3146,7 +3146,7 @@
               "type": "linear"
             },
             "showPoints": "never",
-            "spanNulls": true,
+            "spanNulls": false,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -3797,7 +3797,7 @@
               "tooltip": false,
               "viz": false
             },
-            "insertNulls": 600000,
+            "insertNulls": false,
             "lineInterpolation": "smooth",
             "lineStyle": {
               "fill": "solid"
@@ -3867,6 +3867,10 @@
               {
                 "id": "unit",
                 "value": "rotrpm"
+              },
+              {
+                "id": "decimals",
+                "value": 0
               }
             ]
           },
@@ -3975,7 +3979,7 @@
               "tooltip": false,
               "viz": false
             },
-            "insertNulls": 600000,
+            "insertNulls": false,
             "lineInterpolation": "smooth",
             "lineStyle": {
               "fill": "solid"
@@ -3995,7 +3999,7 @@
               "mode": "off"
             }
           },
-          "decimals": 1,
+          "decimals": 2,
           "fieldMinMax": false,
           "links": [],
           "mappings": [],
@@ -4084,7 +4088,7 @@
               "tooltip": false,
               "viz": false
             },
-            "insertNulls": 600000,
+            "insertNulls": false,
             "lineInterpolation": "smooth",
             "lineStyle": {
               "fill": "solid"
@@ -4104,7 +4108,6 @@
               "mode": "off"
             }
           },
-          "decimals": 1,
           "fieldMinMax": false,
           "links": [],
           "mappings": [],
@@ -4279,10 +4282,10 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Server Overview - (CollectD/Prometheus) [release 2.0.3]",
-  "uid": "b03669e0703e5d8f7230293dcf1d5f33d1177e61",
-  "version": 203,
-  "tklein-version": "2.0.3",
+  "title": "Server Overview - (CollectD/Prometheus) [release 2.0.4]",
+  "uid": "6442b8be1755a042cd37188e191e3c1c833357f2",
+  "version": 204,
+  "tklein-version": "2.0.4",
   "tklein-license": "Copyright 2025 Thomas Hubertus Klein, MIT License",
   "gnetId": 23643
 }
