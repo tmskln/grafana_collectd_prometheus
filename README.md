@@ -5,8 +5,8 @@
 
 ## Collectd --> Prometheus --> Grafana
 
-Published: [Grafana Dashboard](https://grafana.com/grafana/dashboards/23643){:target="_blank"}
-Consultancy: [t-klein.de](https://www.t-klein.de){:target="_blank"}
+Published: [Grafana Dashboard](https://grafana.com/grafana/dashboards/23643)
+Consultancy: [t-klein.de](https://www.t-klein.de)
 
 ### Features:
 ✅  multiple nodes select  
