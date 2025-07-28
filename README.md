@@ -5,8 +5,8 @@
 
 ## Collectd --> Prometheus --> Grafana
 
-Published: [Grafana Dashboard](https://grafana.com/grafana/dashboards/23643-server-overview-collectd-prometheus-release-2-0-3/)  
-Consultancy: [t-klein.de](https://www.t-klein.de)
+Published: [Grafana Dashboard](https://grafana.com/grafana/dashboards/23643){:target="_blank"}
+Consultancy: [t-klein.de](https://www.t-klein.de){:target="_blank"}
 
 ### Features:
 ✅  multiple nodes select  
