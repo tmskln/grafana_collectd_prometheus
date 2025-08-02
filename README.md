@@ -3,7 +3,7 @@
 <img src="screenshots/screenshot_1.png" width="300" alt="Screenshot"/><img src="screenshots/screenshot_2.png" width="300" alt="Screenshot"/>
 <img src="screenshots/screenshot_3.png" width="300" alt="Screenshot"/><img src="screenshots/screenshot_4.png" width="300" alt="Screenshot"/>
 
-## Collectd --> Prometheus --> Grafana
+## Collectd --pull--> Prometheus --pull--> Grafana
 
 Published: [Grafana Dashboard](https://grafana.com/grafana/dashboards/23643)
 Consultancy: [t-klein.de](https://www.t-klein.de)
