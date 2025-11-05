@@ -1,5 +1,7 @@
 # Grafana Dashbords
 
+The dashboard shows **CollectD** metrics exported by the *writePrometheus* plugin to Prometheus/Mimir backend. Although CollectD with Graphite backend is the preferred combination, this dashboard facilitates the migration to the Prometheus backend while retaining existing CollectD sensors. 
+
 <img src="screenshots/screenshot_1.png" width="300" alt="Screenshot"/><img src="screenshots/screenshot_2.png" width="300" alt="Screenshot"/>
 <img src="screenshots/screenshot_3.png" width="300" alt="Screenshot"/><img src="screenshots/screenshot_4.png" width="300" alt="Screenshot"/>
 
