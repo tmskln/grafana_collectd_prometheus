@@ -35,7 +35,6 @@ services:
       - --config.file=/etc/prometheus2/prometheus.yml
       - --web.enable-remote-write-receiver
       - --enable-feature=exemplar-storage
-      - --enable-feature=native-histograms
     volumes:
       - ./prometheus:/etc/prometheus2
     networks:
